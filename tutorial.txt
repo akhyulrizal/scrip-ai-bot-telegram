@@ -1,0 +1,26 @@
+ >>> Buat Bot dan Token dari BotFather
+
+1. Buka Telegram, cari @BotFather.
+2. Ketik /start lalu /newbot.
+3. Masukkan nama bot kamu (bebas, contoh: OpenRouterBot).
+4. Masukkan username bot (harus diakhiri dengan bot, contoh: openrouter_test_bot).
+5.Salin HTTP API token yang diberikan oleh BotFather. Simpan token ini.
+
+
+ >>> Dapatkan API Key dari OpenRouter
+
+1. Buka https://openrouter.ai
+2. Login atau daftar.
+3. asuk ke https://openrouter.ai/keys
+4. Klik "Create API Key" dan beri nama, misalnya telegram-bot.
+5. Simpan API Key 
+
+
+>>> cara Run di cmd
+
+1. Pastikan sudah menginstall python
+2. buka cmd trus ketikan :
+   pip install python-telegram-bot==20.3 requests
+3. cd:\file yang kamu simpan bot nyaaa
+4. python bot.py
+jika berhasil maka cmd akan menampilkan : ✅ Bot Telegram OpenRouter sedang berjalan...
