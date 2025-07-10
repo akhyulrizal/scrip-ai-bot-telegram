@@ -47,5 +47,5 @@ if __name__ == "__main__":
     app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
-    print("✅ Bot Telegram OpenRouter sedang berjalan...")
+    print("✅ Bot Ai Telegram Kamu sedang berjalan...")
     app.run_polling()
